@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<head>
+<title>My Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+<body>
+  <!-- Nav -->
+  <nav id="nav">
+    <ul class="container">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="art.html">Art</a></li>
+      <li><a href="photography.html">Photography</a></li>
+    </ul>
+  </nav>
+
+<!-- Header -->
+<div class="header">
+  <h1>Here are my Digital Creatives</h1>
+  <p>I'm expert at Canva and beginner with Adobe Photoshop and Illustrator.<a href="freehand.html">Check my Free hand Sketching here</a></p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="images/pick1.jpg" style="width:100%">
+    <img src="images/pick2.jpg" style="width:100%">
+    <img src="images/pick3.jpg" style="width:100%">
+    <img src="images/pick26.jpg" style="width:100%">
+    <img src="images/pick4.jpg" style="width:100%">
+    <img src="images/pick5.jpg" style="width:100%">
+    <img src="images/pick6.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/pick7.jpg" style="width:100%">
+    <img src="images/pick8.jpg" style="width:100%">
+    <img src="images/pick9.jpg" style="width:100%">
+    <img src="images/pick10.jpg" style="width:100%">
+    <img src="images/pick11.jpg" style="width:100%">
+    <img src="images/pick12.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="images/pick13.jpg" style="width:100%">
+    <img src="images/pick14.jpg" style="width:100%">
+    <img src="images/pick15.jpg" style="width:100%">
+    <img src="images/pick16.jpg" style="width:100%">
+    <img src="images/pick17.jpg" style="width:100%">
+    <img src="images/pick18.jpg" style="width:100%">
+    <img src="images/pick19.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/pick20.jpg" style="width:100%">
+    <img src="images/pick21.jpg" style="width:100%">
+    <img src="images/pick22.jpg" style="width:100%">
+    <img src="images/pick23.jpg" style="width:100%">
+    <img src="images/pick24.jpg" style="width:100%">
+    <img src="images/pick25.jpg" style="width:100%">
+  </div>
+</div>
+</body>
+</html>
